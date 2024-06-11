@@ -27,5 +27,6 @@ public class Homework3 {
         System.out.println("The maximum salary is: -> "+ max_num);
 
 
+
     }
 }

@@ -22,7 +22,7 @@ public class Homework3 {
     private static boolean toCheckAnagram(String s1, String s2) {
         char[] ch1=s1.toCharArray();
         char[] ch2=s2.toCharArray();
-        //System.out.println(ch1);
+        //System.out.println(ch1); silent, listen
         for(char c:ch1){
             System.out.println(c);
         }

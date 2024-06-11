@@ -28,18 +28,20 @@ public class Homework2 {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 if (arr[i][j] == searchNum) {
-                    count="yes";
+                    System.out.println("The number " + searchNum + " is available in the array");
+                    //count="yes";
                 }
 
             }
         }
 
-        if(count.equals("yes")){
-            System.out.println("The number " + searchNum + " is available in the array");
-        }
-        else{
-            System.out.println("The number " + searchNum + " is not available in the array");
-        }
+//        if(count.equals("yes")){
+//            System.out.println("The number " + searchNum + " is available in the array");
+//        }
+//        else{
+//            System.out.println("The number " + searchNum + " is not available in the array");
+//        }
+
     }
 
 }
